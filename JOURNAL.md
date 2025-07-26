@@ -46,3 +46,13 @@ I think tomorrow, I'll work on separating the parts and fixing anything else I n
 ![CAD Arm](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0667d4082a4b8ca22801f61ec70032863b29ee40_cad_jy24.png)
 
 **Time spent: 4h** 
+
+# July 25th:
+I worked on my circuit schematic. It was extremely confusing because some of the parts I neededcl ike the Dynamixel servo motors and the MyoWare sensors didnt have any footprints of  symbols, so I had to make them myself. Moreover, I had trouble getting the correct BNO055 and some of the symbosl like the ESP32-CAM had errors for their pins. They had Bidirectional as the electircal type for all of their pins, which is completely wrong because power pins like the 5V and the GND pins should be power input. Also, as I moved the components over everywhere, some of the wires got into unwanted junctions and stuff which was very very annoying to fix. There were also a lot of errors on the ERC so I had to track everything and fix it. There were so many components that I had to research how to connect and then manually connect everything as well. Since I'm a beginner at KiCAD, it took so much time to fix all of this.
+And then I realized I had to add resisotrs forth e SDA and SCL lines, and capacitors for the motors, ADS1115s, and MyoWare sensors. 
+After this, I decided to not use a PCB, because first of all, my components need to be spread out over the hand and arm, and also I will need to be careful to make sure the connections are actually correct IRL, so I'll manually solder everything.
+I think the schematic is mostly done because I made sure all of the connections made sure by verifying what other youtube videos have done.
+
+![Circuit Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09242684435c8adfca3481af5a91649d5c3d4354_schematic_jy25.png)
+
+**Time spent: 4h** 

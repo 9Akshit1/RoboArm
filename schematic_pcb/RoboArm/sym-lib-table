@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Dynamixel")(type "KiCad")(uri "${KIPRJMOD}/Dynamixel.kicad_sym")(options "")(descr ""))
+  (lib (name "MyoWare_EMG_Sensor")(type "KiCad")(uri "${KIPRJMOD}/MyoWare_EMG_Sensor.kicad_sym")(options "")(descr ""))
+)
