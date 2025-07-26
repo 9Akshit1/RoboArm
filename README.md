@@ -3,6 +3,8 @@ DESCRIPTION: RoboArm is just like how it sounds. It is a robotic arm with 3 join
 
 INSPIRATION: I've always been inspired by how human arms move and wanted to recreate that motion using motors and tendons. Additionally, I rpeviosuly buitl a RoboHand so to add on to that project, I wanted to add a RoboArm to extend it. 
 
+Link to RoboArm: https://github.com/9Akshit1/RoboHand (they are separate projects)
+
 # Final CAD
 The separate part files and body files are in ther CAD folder. The full built hand CAD File is called FULL-RoboArm.stl in the CAD folder. 
 
