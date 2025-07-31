@@ -79,3 +79,32 @@ I'll upload all of the CAD files tomorrow after I'm done updating.
 ![Separated Human Arm Base. There're more images, but just this one for now I'll show](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e1a96042fae8d9c8134b4bd1a5ce0a0e1372ae05_human_arm_base_cad.png)
 
 **Time spent: 5.5h** 
+
+# July 28th:
+Like I said yesterday, I just focused on finding the correct and best replacements for the Dynamixel servo motor and the MyoWare EMG sensors. I first made up a list of a few different decent replacements for each one by checking reviews/posts. Then, I searched each one and filtered out the ones that were too weak or too expensive. I finally was able to find two possible replacements for each of the Dynamixel and the MyoWare. I found an LX-224 and an LX-225 for the servo, and I found a potentially cheap MyoWare 1.0 and a cheap ECG (not EMG unfortunately) sensor that's often used with Arduino. After messaging the customer service people for each component and also deciding between my choices, I've locked in the LX-225 and the MyoWare 1.0, because the LX-225 offered more torque for about the same price and size as the LX-224, and torque is especially important because the Dynamixel has 40 kg*cm, so I need any torque I can get. For the MyoWare, it was mainly decided due to the fact that it wouldn't change any of my schematics and moreover, the MyoWare is genuinely good quality, has a lot of good documentation, and doesn't need any extra parts like a shield for example.
+I had to scour a bunch of different options on various websites like RobotShop, Amazon (even though there weren't any unfortunately), and Alibaba/AliExpress. I researched and I will likely need to update my schematic because the servo motors need a DC buck converter. I will also need to update the CAD servo containers because of them. I started some of that today, but didn't get to finish it, so I'll leave it for tomorrow.
+
+![LX-255 Servo Motor on Alibaba](https://hc-cdn.hel1.your-objectstorage.com/s/v3/da37afbf3f3f246cc8b2f13dd4c7f67171905b24_lx-255_alibaba.png)
+
+![MyoWare 1.0 EMG Sensors on Alibaba](https://hc-cdn.hel1.your-objectstorage.com/s/v3/980d564ca3b1f2be24dea2d21ed2d3b0005a3286_myoware1_alibaba.png)
+
+**Time spent: 2h** 
+
+# July 29th:
+I finished updating the circuit schematic and the CAD. It took some time picking out the right DC buck converter, becasue the first one I used, was wayy too complex for me, but the second one was good because it had a bunch of simpler connections and also had some inbuilt stuff. I had a few errors related to the input and output power pins, and unfortunately I sitl lwasnt able to address one because KiCAD needs to have a PWR_FLAG for the OUT pin on the DC Buck Converter so thatit can be recognized as a power source, but because the OUT pin is an Output pin and the PWR_FLAG is a Power Output pin, they can't be connected, so I'm not sure hoq to fix that. I even asked on Slack, but no one knew how to fix it.
+
+![Updated Scehmatic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/de92ead07e0b2a18475181f37048c697b2ef9f44_schematic_jy29.png)
+
+**Time spent: 1h** 
+
+# July 30th:
+I received updates from the people from Aliexpress and unfortunately the MyoWare sensors that were priced at $10 are not in stock, which means I need to look for other options. So, I first searched up again on other sites like Alibaba and robotnot but most of them had terrible prices. I found one potential MyoWare 1.0 sensor priced at $30, which is still expensive, but it is definitely the cheapest one considering shipping as well. However, since they are at $30, I will barely be able to get 5 or 6 sensors. After researching, I found that I do not NEED 10 sensors, however, for fluid human-like motion, it is definitely extremely useful. I'm thinking of replacing some of the lack of data using datasets online too if possible or ask universities in my area to borrow their cheap sensors for testing. It's desperate, but I need at least these 5 or 6 sensors. For 6 sensors, I need to probably take out the MG90S motors, the ESP32-CAM, the capacitors, the pull-up resistors, and the shipping out of my BOM, because if my RoboHand project gets approved, then I should be able to acquire those items. This means that I will need to also delete 4 sensors out of my schematic.
+I just chose not to reduce the EMG sensors in my schematic from 10 to 6 because in the future, when I do buy the other 4 sensors out of pocket, I want to be able to use the 10 EMG sensor schematic easily, which is why I have not changed it to have 6 EMG sensors. Additionally, to fix the error that I had with the DC Buck Converter, I simply added a +5V power symbol and deleted the wire connection from the OUT pin, because the OUT pin will produce 5V anyways, so it’s fine if I replace it like this. There’s also no error if I do this.
+I also edited the CAD servo holders as needed. It took some time because I had to also edit the servo mounts/attachments since all of the Dynamixel's attachments need to be converted into the LX-225 version.
+Next, I need to work on the firmware. To do that, I need to look at some tutorials and research papers and GitHubs properly to understand how to build a good EMG and other modalities dataset. I can also prepare a basic model template for the ROS, but it'll be difficult.
+
+![Updated Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0d52475c7330d083d6516c378238f20f8c8fdde7_schematic_jy30.png)
+
+![CAD Updated Servo Holders](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6e9a5dc8b87d677ede1fb0148001c4edf4cc3900_cad_jy30.png)
+
+**Time spent: 2h** 

@@ -910,124 +910,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Dynamixel:Dynamixel_XM430_W350"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Dynamixel XM430"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.0668 1.0668)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Dynamixel_XM430_W350_0_1"
-				(rectangle
-					(start -5.08 6.35)
-					(end 10.16 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Dynamixel_XM430_W350_1_1"
-				(pin power_in line
-					(at -7.62 3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 3.81 180)
-					(length 2.54)
-					(name "DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ESP32-CAM_1"
 			(pin_names
 				(offset 1.016)
@@ -2205,6 +2087,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LX-255 Servo:LX-255_Servo_Motor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LX-255_Servo_Motor"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LX-255_Servo_Motor_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LX-255_Servo_Motor_1_1"
+				(pin passive line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Logic_LevelTranslator:TXS0108EPW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2941,7 +2941,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor"
+		(symbol "MyoWare_EMG_Sensor_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2988,7 +2988,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MyoWare_EMG_Sensor_0_1"
+			(symbol "MyoWare_EMG_Sensor_1_0_1"
 				(rectangle
 					(start -7.62 6.35)
 					(end 6.35 -3.81)
@@ -3001,8 +3001,8 @@
 					)
 				)
 			)
-			(symbol "MyoWare_EMG_Sensor_1_1"
-				(pin power_in line
+			(symbol "MyoWare_EMG_Sensor_1_1_1"
+				(pin passive line
 					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "+Vs"
@@ -3038,7 +3038,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 8.89 1.27 180)
 					(length 2.54)
 					(name "GND"
@@ -4327,6 +4327,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:LM2596S-ADJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM2596S-ADJ"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Down Voltage Regulator Adjustable 3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2596S-ADJ_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM2596S-ADJ_1_1"
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "~{ON}/OFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -4431,6 +4607,131 @@
 				)
 			)
 			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+7.5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+7.5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+7.5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+7.5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4794,6 +5095,12 @@
 		(uuid "3e8b5561-f407-40d2-bc30-d9e6bffa9536")
 	)
 	(junction
+		(at 100.33 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eeec4c1-99db-45f7-98e4-a84c76cb243c")
+	)
+	(junction
 		(at 215.9 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4866,6 +5173,12 @@
 		(uuid "5905f471-bd7c-4fa4-9715-112fed9b55f6")
 	)
 	(junction
+		(at 184.15 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "609e7f9b-6889-49eb-a4e2-9334adb70f90")
+	)
+	(junction
 		(at 104.14 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4930,6 +5243,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90947393-1292-49be-bdbf-1e0ba94c57a9")
+	)
+	(junction
+		(at 257.81 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924a5f53-d15d-4565-9943-6b515bb6f794")
 	)
 	(junction
 		(at 121.92 52.07)
@@ -5130,12 +5449,6 @@
 		(uuid "ebba2df7-709e-44b6-844a-921a3c235e9a")
 	)
 	(junction
-		(at 104.14 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec809c6a-b5ea-4315-9608-e7bee71d541b")
-	)
-	(junction
 		(at 137.16 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5282,6 +5595,10 @@
 		(uuid "671f4216-87a7-4ab4-b61b-f14069313c7a")
 	)
 	(no_connect
+		(at 270.51 114.3)
+		(uuid "79d69ad9-11a0-4a25-a9c4-bfb90e804c38")
+	)
+	(no_connect
 		(at 161.29 119.38)
 		(uuid "7f2cc9ac-97ef-408f-ae97-42c05f511fea")
 	)
@@ -5314,6 +5631,10 @@
 		(uuid "955f9d27-52de-4e02-9788-13d8e77e382b")
 	)
 	(no_connect
+		(at 270.51 119.38)
+		(uuid "96563c44-12d3-4c76-bdd8-ca3e805b8113")
+	)
+	(no_connect
 		(at 153.67 40.64)
 		(uuid "9cedb0fa-50b1-4de3-a7d1-72e7da3b12fb")
 	)
@@ -5332,6 +5653,10 @@
 	(no_connect
 		(at 22.86 121.92)
 		(uuid "aa1421b8-fa02-4ed8-b5b5-bccc52052a40")
+	)
+	(no_connect
+		(at 245.11 119.38)
+		(uuid "be7fc030-066f-47a6-a673-cb8e719f7f59")
 	)
 	(no_connect
 		(at 25.4 48.26)
@@ -5414,6 +5739,16 @@
 			(type default)
 		)
 		(uuid "00fdc5b0-61fd-4852-b8b6-9da26993af56")
+	)
+	(wire
+		(pts
+			(xy 201.93 119.38) (xy 184.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01896f09-d26c-46fa-8488-815d02ecac98")
 	)
 	(wire
 		(pts
@@ -5557,16 +5892,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 106.68) (xy 104.14 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0845e61b-ba3e-4546-8250-d06db3577f95")
-	)
-	(wire
-		(pts
 			(xy 184.15 127) (xy 184.15 129.54)
 		)
 		(stroke
@@ -5684,6 +6009,16 @@
 			(type default)
 		)
 		(uuid "117774e2-9230-4822-91ca-58fa1474237f")
+	)
+	(wire
+		(pts
+			(xy 257.81 128.27) (xy 257.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128ea80f-374c-4a0e-8eef-ad036fdc5093")
 	)
 	(wire
 		(pts
@@ -5887,6 +6222,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 104.14) (xy 176.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2fb370-0324-4dce-a2cb-38dddc820aef")
+	)
+	(wire
+		(pts
 			(xy 223.52 30.48) (xy 223.52 27.94)
 		)
 		(stroke
@@ -5974,6 +6319,16 @@
 			(type default)
 		)
 		(uuid "23af48a3-4e9d-401e-a545-7d412b7f1373")
+	)
+	(wire
+		(pts
+			(xy 257.81 125.73) (xy 238.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243f6a8a-235f-4c40-9c75-d63b44571234")
 	)
 	(wire
 		(pts
@@ -6084,6 +6439,16 @@
 			(type default)
 		)
 		(uuid "2b2a023c-18fc-4bf7-86e4-c5f1d8676015")
+	)
+	(wire
+		(pts
+			(xy 184.15 119.38) (xy 184.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3a585a-98da-41cc-9049-91d79579e878")
 	)
 	(wire
 		(pts
@@ -6287,6 +6652,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336d3ccd-2ea6-4017-9521-6ea993a19a3f")
+	)
+	(wire
+		(pts
 			(xy 185.42 160.02) (xy 185.42 143.51)
 		)
 		(stroke
@@ -6304,6 +6679,16 @@
 			(type default)
 		)
 		(uuid "34a49db1-232d-40cc-bdfa-2ecd3a05abdb")
+	)
+	(wire
+		(pts
+			(xy 241.3 104.14) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e6b921-d22b-4f9c-9dc5-abb2889c0a71")
 	)
 	(wire
 		(pts
@@ -6354,6 +6739,16 @@
 			(type default)
 		)
 		(uuid "36f37ecf-7b7c-43da-becb-2ad4a9ad3c9d")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3809053d-d6f0-4689-81f5-398dbedffe53")
 	)
 	(wire
 		(pts
@@ -6484,6 +6879,16 @@
 			(type default)
 		)
 		(uuid "3bc72a3d-8c52-4b8b-91bd-52575be1192b")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2b93d7-944d-4ed8-b368-386c3dd9f406")
 	)
 	(wire
 		(pts
@@ -6687,6 +7092,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 106.68) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461fc1e2-dc95-45cb-a010-9ec5d92ab540")
+	)
+	(wire
+		(pts
 			(xy 83.82 173.99) (xy 83.82 133.35)
 		)
 		(stroke
@@ -6727,6 +7142,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 124.46) (xy 257.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49216ca2-89a8-444d-b01c-2552c81e2c4e")
+	)
+	(wire
+		(pts
 			(xy 130.81 121.92) (xy 130.81 123.19)
 		)
 		(stroke
@@ -6754,6 +7179,16 @@
 			(type default)
 		)
 		(uuid "4a90822c-f5db-45d1-ba0c-96107c25b8be")
+	)
+	(wire
+		(pts
+			(xy 241.3 114.3) (xy 241.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b65e87e-13e7-4dbe-8fd6-1915948ea74b")
 	)
 	(wire
 		(pts
@@ -7387,6 +7822,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 106.68) (xy 238.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a526afe-fdb2-41ad-8f2f-9a2bc0098baf")
+	)
+	(wire
+		(pts
 			(xy 109.22 50.8) (xy 95.25 50.8)
 		)
 		(stroke
@@ -7757,6 +8202,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 119.38) (xy 271.78 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ea51c6-e35b-4f95-817e-0fcba654eb13")
+	)
+	(wire
+		(pts
 			(xy 17.78 107.95) (xy 59.69 107.95)
 		)
 		(stroke
@@ -7764,6 +8219,16 @@
 			(type default)
 		)
 		(uuid "7aa5162a-2301-4c9e-84f7-9bf9f77c917f")
+	)
+	(wire
+		(pts
+			(xy 106.68 128.27) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aea7f96-7234-44ad-a9e6-c6a748e87b6c")
 	)
 	(wire
 		(pts
@@ -7794,6 +8259,16 @@
 			(type default)
 		)
 		(uuid "7dc2eb1a-41e6-4cf4-bd74-844debadc500")
+	)
+	(wire
+		(pts
+			(xy 257.81 128.27) (xy 271.78 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2d22f9-fd10-4299-a7b8-fa89090035ac")
 	)
 	(wire
 		(pts
@@ -8457,6 +8932,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 114.3) (xy 245.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6a2089-252f-432c-b2d4-8cef414ce35d")
+	)
+	(wire
+		(pts
 			(xy 220.98 19.05) (xy 120.65 19.05)
 		)
 		(stroke
@@ -8617,6 +9102,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a684e085-7710-45b1-bd83-14d461f4dcb5")
+	)
+	(wire
+		(pts
 			(xy 181.61 20.32) (xy 181.61 30.48)
 		)
 		(stroke
@@ -8664,6 +9159,16 @@
 			(type default)
 		)
 		(uuid "a8bc4989-d769-41c8-9889-9b3d4fe2412f")
+	)
+	(wire
+		(pts
+			(xy 238.76 125.73) (xy 238.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d83d43-6a19-45ea-aedc-87f92264dbde")
 	)
 	(wire
 		(pts
@@ -8777,6 +9282,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 106.68) (xy 201.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec6fc24-1557-4c75-a3cd-a31743418a1a")
+	)
+	(wire
+		(pts
 			(xy 58.42 114.3) (xy 99.06 114.3)
 		)
 		(stroke
@@ -8834,6 +9349,16 @@
 			(type default)
 		)
 		(uuid "b1b4ca3e-06bb-46c7-bc95-b895dbe56446")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220e07c-a4c8-4d40-a9cb-3a4a6585147c")
 	)
 	(wire
 		(pts
@@ -9184,6 +9709,16 @@
 			(type default)
 		)
 		(uuid "bf78d95b-7091-4e1a-abd7-184a731dd58a")
+	)
+	(wire
+		(pts
+			(xy 106.68 128.27) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb65610-1fc0-46b2-b774-0acf9ce6b92a")
 	)
 	(wire
 		(pts
@@ -9557,7 +10092,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 118.11) (xy 184.15 121.92)
+			(xy 184.15 118.11) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9774,6 +10309,16 @@
 			(type default)
 		)
 		(uuid "da680e67-e495-4a73-bd5b-e31050b4e826")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da831888-fd3d-488e-be19-274ad8212a59")
 	)
 	(wire
 		(pts
@@ -10107,6 +10652,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 119.38) (xy 276.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e99a3c-41d2-4ba1-b447-154626505bfc")
+	)
+	(wire
+		(pts
 			(xy 219.71 20.32) (xy 218.44 20.32)
 		)
 		(stroke
@@ -10177,7 +10732,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 106.68) (xy 104.14 106.68)
+			(xy 95.25 106.68) (xy 100.33 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10254,6 +10809,16 @@
 			(type default)
 		)
 		(uuid "ecf8e9d0-1a6b-46a9-9c0d-55c3a5ce2023")
+	)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 104.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed98758f-7d65-486f-93a6-064c57c880b1")
 	)
 	(wire
 		(pts
@@ -10606,17 +11171,17 @@
 		(uuid "ff92bdec-95fc-4a53-b908-bde9ec73e269")
 	)
 	(symbol
-		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 265.43 88.9 0)
+		(lib_id "LX-255 Servo:LX-255_Servo_Motor")
+		(at 196.85 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ac103a3-6ffb-44a1-af49-99a914e5501a")
-		(property "Reference" "MyoWare EMG Sensor9"
-			(at 264.795 78.74 0)
+		(uuid "000d67f3-e000-43af-98ee-cd2922b8a2fd")
+		(property "Reference" "LX-255_Servo_Motor1"
+			(at 196.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +11189,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 264.795 81.28 0)
+			(at 196.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +11197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 88.9 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +11206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 88.9 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +11215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 88.9 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,25 +11223,177 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a95f2142-3e73-493d-863e-a95ec958f29b")
+		(pin "2"
+			(uuid "fad30658-53b6-409a-ae1b-524b8cdae21b")
 		)
 		(pin "3"
-			(uuid "150bcd8b-0bbe-4c3f-acf1-6d8c0319a692")
+			(uuid "f793dd7c-7c8d-49ad-b493-fd3d551228f6")
 		)
-		(pin "2"
-			(uuid "9219a6a0-a36f-4f97-862a-57de3d2cb257")
+		(pin "1"
+			(uuid "1971c371-59d8-416f-b449-258f8638155a")
 		)
 		(instances
-			(project "RoboArm"
+			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor9")
+					(reference "LX-255_Servo_Motor1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:LM2596S-ADJ")
+		(at 257.81 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b30ef6c-866b-4129-af1b-1ddb8a0647f8")
+		(property "Reference" "U10"
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596S-ADJ"
+			(at 257.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+			(at 257.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
+			(at 257.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "116eeb58-e5e1-4736-a6cf-e51e27b71af5")
+		)
+		(pin "1"
+			(uuid "faf39c8b-0797-4a06-95b1-053fca281bf4")
+		)
+		(pin "2"
+			(uuid "e6666313-0766-49c5-8a0a-f55a135fb762")
+		)
+		(pin "4"
+			(uuid "d3198ed2-3367-4566-9d4a-25a6fc492e3b")
+		)
+		(pin "5"
+			(uuid "c3265051-fcdc-4500-912e-9bb112251335")
+		)
+		(instances
+			(project ""
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
+		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
+		(at 233.68 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "238d9a2d-31d8-42ed-ba9b-97dd05c33d4a")
+		(property "Reference" "MyoWare EMG Sensor6"
+			(at 233.045 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 233.045 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9ea9ad8-0ffe-4f45-acb1-c807f0a7044c")
+		)
+		(pin "1"
+			(uuid "17e3921d-7240-4ecc-9a4a-a8143850de91")
+		)
+		(pin "2"
+			(uuid "afccaeaa-98f1-4cad-927a-1da9f821937b")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "MyoWare EMG Sensor6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
 		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
 		(at 200.66 88.9 0)
 		(unit 1)
@@ -10685,7 +11402,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29060400-24ec-4445-a76a-193038750153")
+		(uuid "2eb4a310-ac88-45e5-9025-98a450ebdfba")
 		(property "Reference" "MyoWare EMG Sensor1"
 			(at 200.025 78.74 0)
 			(effects
@@ -10729,14 +11446,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "30dcfb77-a507-40b3-9aed-140154501b8a")
-		)
 		(pin "3"
-			(uuid "a47bb3d2-6cf4-4e7d-bb08-cf0f09413d1b")
+			(uuid "a2eaff00-df13-433c-b434-aaaeb65daf5e")
+		)
+		(pin "1"
+			(uuid "93e7d932-1fc2-480b-afdf-bcf6de0193ab")
 		)
 		(pin "2"
-			(uuid "5364c7ec-2c0f-4636-9ea8-55870eeb6522")
+			(uuid "4e366dc4-00fd-4a20-b0c8-749e0bb71114")
 		)
 		(instances
 			(project ""
@@ -11164,77 +11881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Dynamixel:Dynamixel_XM430_W350")
-		(at 194.31 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39a4adf2-dee0-4fb3-8c65-25dca76661aa")
-		(property "Reference" "Dynamixel XM1"
-			(at 196.85 146.05 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 196.85 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e79dac54-20fe-442d-aa19-8aeca32d0d44")
-		)
-		(pin "2"
-			(uuid "e83ffa64-ccb1-4a88-bca4-05872c137cd1")
-		)
-		(pin "1"
-			(uuid "2f2c148a-c236-4fc9-8291-04c0763ce33f")
-		)
-		(instances
-			(project ""
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "Dynamixel XM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
 		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
 		(at 233.68 90.17 0)
 		(unit 1)
@@ -11243,7 +11890,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d57eaaa-c5c0-4b62-a761-b0eaa5258b68")
+		(uuid "36a71cdd-cef9-4e20-9497-b9236cd3931a")
 		(property "Reference" "MyoWare EMG Sensor8"
 			(at 233.045 80.01 0)
 			(effects
@@ -11287,14 +11934,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "996a56eb-a102-4356-a3c5-94daf83ccb24")
-		)
 		(pin "3"
-			(uuid "3f84074c-6c9f-4798-9f4c-509dbcaa0fb4")
+			(uuid "dea2e31a-63b0-4aa7-9592-1bbf9d87ca42")
+		)
+		(pin "1"
+			(uuid "ba690871-ae1e-4cf7-82d4-aba29f561e11")
 		)
 		(pin "2"
-			(uuid "35d09f08-23ce-40b8-8c54-bff7208d40c3")
+			(uuid "59af139f-f621-45d6-b401-0f4e186ada32")
 		)
 		(instances
 			(project "RoboArm"
@@ -11520,159 +12167,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 200.66 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "565f135c-995d-414c-84e8-1a139996407d")
-		(property "Reference" "MyoWare EMG Sensor2"
-			(at 200.025 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 200.025 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "927bce3a-5890-4031-a2ca-5f646887d6da")
-		)
-		(pin "3"
-			(uuid "228d8a6b-6c89-4e48-a9f8-18a3a8f14962")
-		)
-		(pin "2"
-			(uuid "b94deb98-a334-4624-b0e0-687b5a48d7a5")
-		)
-		(instances
-			(project "RoboArm"
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Dynamixel:Dynamixel_XM430_W350")
-		(at 219.71 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a2ba864-a7f0-440a-88af-a74fa339ca8f")
-		(property "Reference" "Dynamixel XM2"
-			(at 222.25 146.05 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 222.25 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "14ba2685-38cf-4367-9a3e-aa53b061b74f")
-		)
-		(pin "2"
-			(uuid "e2c64c5a-333a-49a0-a0ca-2716ea428dc8")
-		)
-		(pin "1"
-			(uuid "6b3cecfa-1557-43ea-9c70-952f74e1ec2f")
-		)
-		(instances
-			(project "RoboArm"
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "Dynamixel XM2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 99.06 106.68 0)
+		(at 95.25 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a591730-c4b6-4141-aec3-aac2a1b793ca")
 		(property "Reference" "#FLG01"
-			(at 99.06 104.775 0)
+			(at 95.25 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +12185,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 99.06 101.6 0)
+			(at 88.9 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +12193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 106.68 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +12202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 106.68 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,7 +12211,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 99.06 106.68 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,77 +12226,6 @@
 			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 233.68 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e342912-8596-4f54-81d7-4b8b114c3bde")
-		(property "Reference" "MyoWare EMG Sensor5"
-			(at 233.045 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 233.045 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42807aef-6fda-42c3-ad6a-e1c8cba6e775")
-		)
-		(pin "3"
-			(uuid "f526ae0e-2be5-481d-b712-91f9eb037e53")
-		)
-		(pin "2"
-			(uuid "4f89165c-8b2c-4375-856e-ee5da09e5d63")
-		)
-		(instances
-			(project "RoboArm"
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor5")
 					(unit 1)
 				)
 			)
@@ -12354,77 +12787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Dynamixel:Dynamixel_XM430_W350")
-		(at 243.84 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "639829d4-3478-4156-8e5b-97270785b366")
-		(property "Reference" "Dynamixel XM3"
-			(at 246.38 146.05 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 246.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6bf6fc14-22d3-4232-aa87-dd8ef9db1d95")
-		)
-		(pin "2"
-			(uuid "0ed20902-69b4-40b8-af50-63fe8bc3ad99")
-		)
-		(pin "1"
-			(uuid "a17c56d4-8f56-4504-a20d-6fb4fb3ac8ef")
-		)
-		(instances
-			(project "RoboArm"
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "Dynamixel XM3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BNO055 Breakout:2472")
 		(at 88.9 81.28 0)
 		(unit 1)
@@ -12628,17 +12990,18 @@
 		)
 	)
 	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
 		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 265.43 68.58 0)
+		(at 200.66 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64f83bd1-6b43-4aff-a407-a7135e071620")
-		(property "Reference" "MyoWare EMG Sensor10"
-			(at 264.795 58.42 0)
+		(uuid "64f6e564-3a8e-45f5-85d1-6110da3a203e")
+		(property "Reference" "MyoWare EMG Sensor3"
+			(at 200.025 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,7 +13009,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 264.795 60.96 0)
+			(at 200.025 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +13017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 68.58 0)
+			(at 200.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12663,7 +13026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 68.58 0)
+			(at 200.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +13035,152 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 68.58 0)
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "18517583-4bb5-46a8-8f45-89b5135cf51c")
+		)
+		(pin "1"
+			(uuid "fe8ac0a4-8ff4-4e77-ab12-7e02ba97035d")
+		)
+		(pin "2"
+			(uuid "02765c75-a462-415c-8db2-e748057ef25c")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "MyoWare EMG Sensor3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
+		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
+		(at 233.68 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6579e858-020f-4431-bf84-a5440d351e91")
+		(property "Reference" "MyoWare EMG Sensor5"
+			(at 233.045 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 233.045 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f82d66f9-a117-44e1-99b9-5058bd1267f2")
+		)
+		(pin "1"
+			(uuid "3d4afca8-f627-496b-bfd6-340202d54dd3")
+		)
+		(pin "2"
+			(uuid "f52d2744-6541-485f-af31-c7d1128099d7")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "MyoWare EMG Sensor5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 257.81 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d97d0c3-7257-4e91-b77e-2fca7f971a6c")
+		(property "Reference" "#FLG03"
+			(at 255.905 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 254 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 257.81 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12681,18 +13189,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd123657-b775-4843-b9ce-ffab177d2bac")
-		)
-		(pin "3"
-			(uuid "275a39d1-f539-4d2d-abd7-76d0832f7ef7")
-		)
-		(pin "2"
-			(uuid "b561f429-aeaf-4566-b888-36d79efd6e8d")
+			(uuid "38e2b7f5-1311-4b2c-b0c2-544519ae9f89")
 		)
 		(instances
-			(project "RoboArm"
+			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor10")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -12772,25 +13274,26 @@
 		)
 	)
 	(symbol
-		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 200.66 31.75 0)
+		(lib_id "power:+7.5V")
+		(at 100.33 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b7ff173-0259-4074-8e10-06d46138a23f")
-		(property "Reference" "MyoWare EMG Sensor4"
-			(at 200.025 21.59 0)
+		(uuid "70a7e782-1513-430a-9392-fb791cb8303d")
+		(property "Reference" "#PWR03"
+			(at 100.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 200.025 24.13 0)
+		(property "Value" "+7.5V"
+			(at 100.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12798,7 +13301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 31.75 0)
+			(at 100.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12807,7 +13310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 31.75 0)
+			(at 100.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,8 +13318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 31.75 0)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 100.33 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12825,89 +13328,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "066def43-64ff-4056-8ab2-a20ed5363422")
-		)
-		(pin "3"
-			(uuid "f3381043-6d19-4a32-8082-5e6883aeb3cc")
-		)
-		(pin "2"
-			(uuid "481101a8-7d96-49fe-b701-602b87deb74c")
+			(uuid "21031c52-3def-4bb0-9ad1-938d47155595")
 		)
 		(instances
-			(project "RoboArm"
+			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Dynamixel:Dynamixel_XM430_W350")
-		(at 269.24 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80ef84c5-26e5-4bcd-bf69-a38d257a062e")
-		(property "Reference" "Dynamixel XM4"
-			(at 271.78 146.05 0)
-			(effects
-				(font
-					(size 1.0668 1.0668)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 271.78 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fb90d58b-acbd-400b-a252-32386b519e6e")
-		)
-		(pin "2"
-			(uuid "b3701c81-f2c3-451a-a944-3ce0694c85c9")
-		)
-		(pin "1"
-			(uuid "ba02967c-c881-4134-b9c3-b6030597b9bf")
-		)
-		(instances
-			(project "RoboArm"
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "Dynamixel XM4")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12987,6 +13413,77 @@
 		)
 	)
 	(symbol
+		(lib_id "LX-255 Servo:LX-255_Servo_Motor")
+		(at 246.38 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "899e3195-c284-4310-ba8a-8f85b61a1631")
+		(property "Reference" "LX-255_Servo_Motor3"
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f4faf54-5742-4544-b5b9-173f78e55016")
+		)
+		(pin "3"
+			(uuid "ff3fd36f-01d9-4bd5-9816-bac608e8b006")
+		)
+		(pin "1"
+			(uuid "3732a8ad-f5c9-4b0b-b803-e69eecc5d7b8")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "LX-255_Servo_Motor3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_Servo")
 		(at 161.29 191.77 0)
 		(unit 1)
@@ -13059,17 +13556,17 @@
 		)
 	)
 	(symbol
-		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 233.68 50.8 0)
+		(lib_id "LX-255 Servo:LX-255_Servo_Motor")
+		(at 222.25 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93336893-9aa8-4994-a2e2-bdd5110facd2")
-		(property "Reference" "MyoWare EMG Sensor6"
-			(at 233.045 40.64 0)
+		(uuid "b62917d6-17a6-4268-ba17-1623d3d6e743")
+		(property "Reference" "LX-255_Servo_Motor2"
+			(at 222.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13077,7 +13574,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 233.045 43.18 0)
+			(at 222.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13085,7 +13582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 50.8 0)
+			(at 222.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13094,7 +13591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 50.8 0)
+			(at 222.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,7 +13600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 50.8 0)
+			(at 222.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,36 +13608,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "00cf2428-bfdb-4c52-9003-a2a85c1a2afb")
+		(pin "2"
+			(uuid "137ec7c1-8785-4a91-a30a-f0303481eb12")
 		)
 		(pin "3"
-			(uuid "39730345-a36a-4dfe-a3a2-c5ab21377125")
+			(uuid "d453ae25-ba32-44cf-83ef-7590f52e7818")
 		)
-		(pin "2"
-			(uuid "bf6718c3-b9fd-46e2-80c6-a84f339c37be")
+		(pin "1"
+			(uuid "1a24276a-4419-4200-b6f6-5a20d2927181")
 		)
 		(instances
 			(project "RoboArm"
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor6")
+					(reference "LX-255_Servo_Motor2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
 		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 200.66 50.8 0)
+		(at 265.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b08780d2-3931-42e8-a3b7-a5ab1fb11fa5")
-		(property "Reference" "MyoWare EMG Sensor3"
-			(at 200.025 40.64 0)
+		(uuid "b822de99-48ae-43b7-82e6-73b53c7d9ef8")
+		(property "Reference" "MyoWare EMG Sensor10"
+			(at 264.795 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13148,7 +13646,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 200.025 43.18 0)
+			(at 264.795 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,7 +13654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 50.8 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +13663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 50.8 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,7 +13672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 50.8 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13182,19 +13680,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3b6aba20-8320-41af-9dc6-f9f1f8a8937c")
-		)
 		(pin "3"
-			(uuid "536066dc-1410-4c1d-a36e-5553129b9b2b")
+			(uuid "facb2fea-514d-4308-a315-32a388d900c4")
+		)
+		(pin "1"
+			(uuid "01a97a03-1057-4d0c-8d5a-2da1b096b9d2")
 		)
 		(pin "2"
-			(uuid "7035f999-8b53-4aa3-b2e6-03a3039e0101")
+			(uuid "3ad099fc-c9da-494e-b99c-0c392dd12a41")
 		)
 		(instances
 			(project "RoboArm"
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor3")
+					(reference "MyoWare EMG Sensor10")
 					(unit 1)
 				)
 			)
@@ -13265,6 +13763,149 @@
 			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
+		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
+		(at 265.43 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdc0fcdb-a857-4801-bdcf-33f35cb74d1b")
+		(property "Reference" "MyoWare EMG Sensor9"
+			(at 264.795 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 264.795 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7e59ac0a-df48-4ea7-877d-3e31ce3fccfc")
+		)
+		(pin "1"
+			(uuid "c68afec6-bb89-40fd-9e07-c76f0689589c")
+		)
+		(pin "2"
+			(uuid "29cd18e1-e726-4d0b-86ef-87b816112580")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "MyoWare EMG Sensor9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LX-255 Servo:LX-255_Servo_Motor")
+		(at 271.78 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f4e067-fbf9-4eb5-8855-c8b1e351354a")
+		(property "Reference" "LX-255_Servo_Motor4"
+			(at 271.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b3a9173-febd-43fd-98a1-db8dd8f2c889")
+		)
+		(pin "3"
+			(uuid "c20919cb-3679-45e4-8f31-c1d2a1d95ad9")
+		)
+		(pin "1"
+			(uuid "5dcd422e-02ca-452b-ad7e-28c0d73fd2b3")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "LX-255_Servo_Motor4")
 					(unit 1)
 				)
 			)
@@ -13359,6 +14000,78 @@
 			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
+		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
+		(at 233.68 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c565e825-2533-4e14-963f-84ce87f263b7")
+		(property "Reference" "MyoWare EMG Sensor7"
+			(at 233.045 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 233.045 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bdf32712-0e7d-486e-80c0-8587d0f02208")
+		)
+		(pin "1"
+			(uuid "9099dbee-de49-4f56-8235-10a6ecbb9a11")
+		)
+		(pin "2"
+			(uuid "8addda73-a69f-4c79-ac29-999668a66f26")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "MyoWare EMG Sensor7")
 					(unit 1)
 				)
 			)
@@ -13596,26 +14309,26 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 104.14 106.68 0)
+		(lib_name "MyoWare_EMG_Sensor_1")
+		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
+		(at 200.66 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cfe9dfd6-f2a5-41b4-98b0-577b2be930b1")
-		(property "Reference" "#PWR02"
-			(at 104.14 110.49 0)
+		(uuid "d00d2a32-f4ff-4709-a635-cf62fea1a170")
+		(property "Reference" "MyoWare EMG Sensor2"
+			(at 200.025 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 104.14 101.6 0)
+		(property "Value" "~"
+			(at 200.025 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13623,7 +14336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 106.68 0)
+			(at 200.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13632,7 +14345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 106.68 0)
+			(at 200.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13640,22 +14353,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 106.68 0)
+		(property "Description" ""
+			(at 200.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "c6d80213-3f69-458c-b953-124da55f54ce")
 		)
 		(pin "1"
-			(uuid "35bedbc2-dee4-4657-929e-0ae78789241d")
+			(uuid "ef34b99e-e0ef-447f-96c6-f0a28ceddcac")
+		)
+		(pin "2"
+			(uuid "b27c59cf-dcee-4432-b0c5-fcb4e598b47a")
 		)
 		(instances
-			(project ""
+			(project "RoboArm"
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "#PWR02")
+					(reference "MyoWare EMG Sensor2")
 					(unit 1)
 				)
 			)
@@ -13790,6 +14509,78 @@
 			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MyoWare_EMG_Sensor_1")
+		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
+		(at 200.66 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6748295-485b-4f4c-bca8-5403ac63b960")
+		(property "Reference" "MyoWare EMG Sensor4"
+			(at 200.025 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 200.025 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f4f3203d-143a-404c-b109-ba4392d293ea")
+		)
+		(pin "1"
+			(uuid "3dbfcfd0-8828-4734-8f32-f9c0d9b141f9")
+		)
+		(pin "2"
+			(uuid "b7c52bee-aa83-43a4-9e60-476d36d62a57")
+		)
+		(instances
+			(project "RoboArm"
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "MyoWare EMG Sensor4")
 					(unit 1)
 				)
 			)
@@ -14154,77 +14945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MyoWare_EMG_Sensor:MyoWare_EMG_Sensor")
-		(at 233.68 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb33faba-de8a-4154-8bd2-1bb3d810d9bf")
-		(property "Reference" "MyoWare EMG Sensor7"
-			(at 233.045 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 233.045 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a616026-eb81-48d3-9ebc-95e503644e5a")
-		)
-		(pin "3"
-			(uuid "1950629a-f783-46f3-9285-fe13c7fa7992")
-		)
-		(pin "2"
-			(uuid "8436243c-7872-420f-8b95-6d2000250b3f")
-		)
-		(instances
-			(project "RoboArm"
-				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
-					(reference "MyoWare EMG Sensor7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Motor:Motor_Servo")
 		(at 25.4 191.77 0)
 		(unit 1)
@@ -14292,6 +15012,72 @@
 			(project ""
 				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 276.86 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb48c32-e4d7-48df-abc7-f69e92ee78af")
+		(property "Reference" "#PWR02"
+			(at 276.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 276.86 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3f97e53-b27a-4c60-90d1-aa005967d475")
+		)
+		(instances
+			(project ""
+				(path "/9b981f5f-629a-45d9-b5f4-d31bcf94cc37"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

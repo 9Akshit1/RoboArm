@@ -32,8 +32,10 @@ The cool human arm version:
 
 # Final Circuit Schematic
 Schematic is called RoboArm.kicad_sch in the schematic_pcb/RoboArm folder.
+The schematic shows that I used 10 EMG sensors, however in reality, I will likely buy only 6 in the beginning. However, nothing much changes in the schematic except for deleting the 4 extra EMG sensors, so please excuse that. In the future, when I do buy the other 4 sensors out of pocket, I want to be able to use the 10 EMG sensor schematic easily, which is why I have not changed it to have 6 EMG sensors.
+Additionally, for the LM2596S-ADJ DC Buck Converter, the OUT pin has a No Connect flag because I was having an error before with the OUT pin connected to the PWR_FLAG, and it didn't seem fixable even with the help of others. So, instead, I just disconnected the OUT pin and then wires the PWR_FLAG to a +5V power symbol instead, as the OUT pin would function as a 5V power source anyways. In the real world, I'll connect the OUT pin, so we do not need to worry about that. Finally, the other two pins, ON/OFF and FB, have No Connect flags because the type of DC buck converter I am buying often has those things internally wired anyways, so there is no need to do additioanlly wirings for them in my case.
 
-![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09242684435c8adfca3481af5a91649d5c3d4354_schematic_jy25.png)
+![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0d52475c7330d083d6516c378238f20f8c8fdde7_schematic_jy30.png)
 
 # I am not using a PCB, because I will manually solder everything.
 
@@ -49,10 +51,10 @@ The firmware software is in the firmware folder, and are called main.py.
 | ESP32 DevKit V1 | ESP32-WROOM-32 | 1 | $11.39 | $8.43 | [Link](https://www.amazon.ca/ESP-WROOM-32-Aideepen-30PIN-Development-MicroPython/dp/B0DDPJQX3X/ref=sr_1_19?crid=2UXH2KGFOR3CC&dib=eyJ2IjoiMSJ9.ibEv7cvxgsX2dmbfesfY9usWxppYWccvJc_3h8zgi53kA-4DhFx3Omk510-lTkd8eQOxBVLuxeIw-xoaMcD8LpsI6xuzUp3k0SwjWLKlALsHHcHbi7o5MXZ1jpdsCHQpyEEvX5YOTakwqqJyzCLZJqQdiVOJaYnTWJd3guMW2vgkNfFBwDRO2E6teyZb65qShQo9QZ8R70d-jIia0JVuVLtCuBAS8pezztQvlij5nbhRLnG-h8Y77LbOb-oVlx1qtC2B5W-Ujav0hmBYfoTNifTZpKRpViqK58ri9qUTeYc.Ua8rhpMGX2Z5QwJkuXOw8_YeDogXI-72GWUhaShYS7Q&dib_tag=se&keywords=DEVIKIT+V1+ESP32&qid=1753664090&refinements=p_36%3A-2000&rnid=12035759011&s=electronics&sprefix=devikit+v1+esp32%2Celectronics%2C71&sr=1-19) | Main controller |
 | ESP32-CAM | ESP32-CAM | 1 | $17.99 | $13.31 | [Link](https://www.amazon.ca/Aideepen-ESP32-CAM-ESP32-CAM-MB-CH-340G-NodeMCU/dp/B0CMTVFCYD/ref=sr_1_1?crid=3KX92GYL9TYB&dib=eyJ2IjoiMSJ9.xk_W05RHOWbB-2VIcpqhAeAQMviHQXbT5Pgp5PJDeySLfNRc4zthbE66sgqRm00KQbw6Lfaoj8dhOlMG5DqFvZZi5fbKJh2yCqh0uexdYqXf-2vgxAAkmwqIy3NP_QogQ-3QjBs-W1PN747J18wojYnnW9Irq2RTFhByVa77WvmyaE9YmegEa0zxb2XlGtI_YwjrWIOE5SyAIcx2yvOb4cNOhXT5uaF7GOq6IPUmhLSWITDjhOw7wjdvMRsTPhKxb1Us6BDcoBI7o3yIgu1GDT5vGoe3w5lA5oLSETGg7bg.2rrL-0tPXzA070WtanrSRZ8w3XYs1b2VoJOHFJCRK8c&dib_tag=se&keywords=ESP32-CAM&qid=1753664337&refinements=p_36%3A-2000&rnid=12035759011&s=electronics&sprefix=esp32-cam%2Celectronics%2C84&sr=1-1) | Computer vision. The amazon link was the best and cheapest deal I could find |
 | MG90S Micro Servos | TowerPro MG90S | 2 | $14.11 | $10.44 | [Link](https://www.amazon.ca/MG90S-Servo-Micro-Geared-Helicopter/dp/B091CMGCMH/ref=sr_1_2?crid=3R8T240FPM1VQ&dib=eyJ2IjoiMSJ9.QcxBBCoz1mvrIJ2muL9-HwYbjuy3ExGHDTPDAPHF8-y9rckP_9GwMAORvC2xDYa8Zv_S3TKyGO45GICHSG9i-cHgqKaZgt3fwSG18ZwqSrMkOSNcrXoN7jfmiDwrTJwp8Z59n8NcN7EoD9VWynzH8GP3CCmWqFgDeYlZtLizlB0zddDLXfAKJEItMSTM7RLrRwEXS4JaX_tyaqYUfFmhvkGj9_Q1g6HL2YVFnvzaD_7yKThU5_7zXUJUsvNy5nIfHQxUrNS9PtggMcGisETyo5rub4sIzvbIsSQkV87JBL0.yOVZhC9LOPBaXD-p7G9CeGlJgdzAXfFeIkLXcY-mmQo&dib_tag=se&keywords=MG90S+servo+motors+2pcs&qid=1753668424&sprefix=mg90s+servo+motors+2pcs%2Caps%2C91&sr=8-2) | Pack of 5, need only 2, but it was the cheapest price. Also, I can use the other extra ones if some of them fail/break |
-| Dynamixel Servos | XM430-W350-T | 4 | $89.99 | $66.59 | [ROBOTIS Store](https://www.robotis.us/dynamixel-xm430-w350-r/) | High-torque servos |
+| LX-225 Servo Motors | LX-225 | 4 | $95.64 | $69.60 | [Link](https://www.alibaba.com/product-detail/Double-Shaft-LX-225-High-Speed_1600996726890.html?spm=a2700.galleryofferlist.normal_offer.d_title.318813a0PIdYL7&selectedCarrierCode=SEMI_MANAGED_STANDARD@@STANDARD) | 25 kg.cm torque servos. Originally wanted Dynamixel XM430 servos, but they were too expensive, so this is the best servo motor that has a decent price and good quality and usitablesness for my application. Unit price is $17.40 USD|
 | PWM Driver | Adafruit PCA9685 | 1 | $9.99 | $7.39 | [Link](https://www.amazon.ca/Newhail-PCA9685-Channel-Arduino-Raspberry/dp/B08YD8PDLS/ref=sr_1_8?dib=eyJ2IjoiMSJ9.EEfjDa5DorESYqQSBRyN4y2RIrvgp7hjEJIhLqpWWRobb2NvP8jwUd4v9g2FhjxoIoxgB_oDgjq3yQXu7OxuEfj3He0Rn_VfibmrUTx4c_r1VwrveTCrfCPC8S0Zfw9czv33jXJzzMRUZries6c14qp3lMRviSuAptk_b1jlXod62SaH1cCIpxl6rZnfXIAoo8wtoS2tHwRTehMCFRWCTAcCwfCrQKBowUFLwMsxnCA-T5_knIgiWIQLTVXGGpei1k9IdYemFr66Xay6u8_ZT3V-hQqq00l6ALru5NmCBwg.hwhubtqv-EM_IioGbQA7V8yTv8jauMlt7NkJjLB3RH4&dib_tag=se&keywords=pca9685+16+channel&qid=1753665414&refinements=p_36%3A-2000&rnid=12035759011&sr=8-8) | 16-channel PWM |
 | Level Shifter | TXS0108E | 1 | $5.89 | $4.36 | [Link](https://www.amazon.ca/10pieces-Compactly-Translators-Supporting-Efficient/dp/B0F6JZL6FR/ref=sr_1_23?crid=YR4I1QV9XSI9&dib=eyJ2IjoiMSJ9.nrGJX6xSrKidUZqvWntdNSdo38IY3cM3LgKAxsAz6fEHv7YcsCyoRdBeD-g6hBTHa4FYcZ6Qxhd-jcvbRXpd_eDhfbkKZDzJuX3N9qmp_2dTxOrswWw4-iwq5fTYT6See2z1GLUrIo0DQoMW3yukU2OHxdWlARBDtWJ303BDgVCIsKQmHBpinOy-es0iHzXxdzyyO0IO6dv6pPkTRUfyCHHmBf27kPkW9LJ6hpqk7gTOEzdBLrZMgQ8qj04FV6yGJeko5jXvdJhTsAQVtVeqNYQRMRnmdG1BM_vxmUN26zA.Y9Iee34-5jZcDP7BPKLKD7cnhiin-FpIVMz7gR-Qwco&dib_tag=se&keywords=txs0108e+1pc&qid=1753665524&sprefix=txs0108e+1pc%2Caps%2C92&sr=8-23) | 3.3V to 5V converter. The amazon link says 10 pcs (though it might be a typo because of how crazy good this deal is. So it could be 1 actually) but they're only for ~$5 which is absolutely the best and most cheapest deal there |
-| EMG Sensors | MyoWare | 10 | $47.99 | $35.52 | [SparkFun](https://www.sparkfun.com/products/13723) | Muscle activity sensors |
+| EMG Sensors | SEN-13723 RoHS MyoWare | 6 | $248.67 | $180 | [Link](https://www.alibaba.com/product-detail/SpotMyoWare-Muscle-Sensor-SEN-13723-Muscles_1601406726720.html?spm=a2700.galleryofferlist.normal_offer.d_title.52e313a0BHVrsO) | Muscle activity sensors. These are one of the best quality sensors suitable for research projects such as this and are also the cheapest deal I found everywhere! Unit price is $10 USD. |
 | ADC Modules | ADS1115 | 3 | $10.39 | $7.69 | [Link](https://www.amazon.ca/ADS1115-Converter-Digital-Development-Precision/dp/B0FGX3FJ62/ref=sr_1_13?dib=eyJ2IjoiMSJ9.P1kddnTm_aeAgBj_1pKscu3GPNfgHM5cf-Za6bs5YpCxW4I6JmSiG3ROWDjQPcKbBX_SvjzT4ZXZ0TsUhhLSU7lg8YMuIzrPTYJtdRbfzEDoyLI92eNmB02YVk_zd4XW0CgfqBPa74teIKb7YgKpVrjNKwLnRM4gcrqKUgP98aE4iTfAmq5CNzIQy8rJMZnyWmFhTdvTfRu1o7kDPhRfLyxJwlRk-tuB-Rpz0zIMlBFiB3nYfmhknV7K1XRH73uKn8GaLzOHPr302XF2rRSAaAMFQjyOzrq5aev952BIkU4.Nxqej9c2pGUCl710kMr1hb8NnowMhOhf92nvUkUw0kU&dib_tag=se&keywords=ads1115&qid=1753666001&sr=8-13) | 16-bit ADC |
 | IMU Sensor | BNO055 | 1 | $15.94 | $11.80 | [Link](https://www.amazon.ca/BNO055-Sensors-Acceleration-Gyroscope-Position/dp/B0F37YCHGK/ref=sr_1_2?dib=eyJ2IjoiMSJ9.WLaYBoVdqWjMGSSPr88oO2Nrehx6QDtC_PoOZINWh9G_vT69XLHGcDhFfx37k1gpJkwcLLT192XOFWwsdGhSfGdRvfsHkY5KBFpYFz31yVJG57rG6qQOHFxEq_ZnH4HUBVyZj0r-5gMcZiSRum1drwrtr1U34gjOI9PJ3wUEOgBET7TN8uHzs8zM5JNtxGrTi1NmvTqz7dovXGsNPxZktWil8qMlyQySMjTU5AOXmfcxZCWiUczC242pckUERQdiIUfmNxK-A_iHS9Qcf3AiH7HTBusnrN7knHWiHKQdsI4.LrSlqy9e2DhSZuZ38Ds_FL_6i5qW3vwA7zkiM0AL3tw&dib_tag=se&keywords=bno055&qid=1753666236&sr=8-2) | 9-DOF orientation |
 | Power Supply | 5V 20A SMPS | 1 | $20.53 | $15.19 | [Link](https://www.amazon.ca/Adapter-Switching-Universal-Regulated-Security/dp/B09PV8S7ZW/ref=sr_1_28?crid=2EB6WMESHSP37&dib=eyJ2IjoiMSJ9.D0Qgb28rwnkSZBXWB1QKBEM_kYhCqy0SMIF7DQ82rIPFFQAMz640gEt2MXS1xRihEqCNYEri3Jb1oqIJgOoalFszNjYEqFmi7gKpq8CoxGtswz_I96C24cumq4Ova_pVM8uCsGTw6Oa7xr7Cr0SWf4hu3q-LRPYKR21HrvzKFS6Ncsp1qhpXG_wzVb3RewJAp5YOaFDqNDN9K5C8JM7tVBJgyEMWSfgVlacemDQEYJtepnyaU4W4zjNxfuw3fPBXt92StxL6-XhRLliBJXdbbdpIBAkEmcwXT82rhq_lvuk.n8QBOC92yvgjlbUDO6SZuOmU-GYL4k_ad0GULDsdTsA&dib_tag=se&keywords=5v+15a+power+supply+SMPS&qid=1753666400&refinements=p_36%3A-3000&rnid=12035759011&sprefix=5v+15a+power+supply+smps%2Caps%2C92&sr=8-28) | High current supply, is SMPS, and is best & cheapest deal |
@@ -65,14 +67,17 @@ The firmware software is in the firmware folder, and are called main.py.
 
 ## Cost Summary
 ### Component Totals
-- **Subtotal**: $193.59 USD / $261.61 CAD
+- **Subtotal (without MG90S motors and ESP32-CAM, if my RoboHand projects gets approved. also, without the capacitors and pull up resistors, because I'll pay that out of pocket)**: $304.46 USD / $417.07 CAD
 
 ### Shipping & Taxes Calculation
-- **Highest shipping cost**: $6.16 CAD ($4.56 USD) for Pull-up Resistors
-- **Canadian HST/GST (13% average)**: $34.01 CAD ($25.17 USD)
+- **Shipping cost**: 
+        - From Amazon: $9.96 USD ($13.64 CAD) for TXS0108E, BNO055, Pull-up Resistors, and Capacitors
+        - From Alibaba/AliExpress: $0.00 USD ($0.00 CAD)  --- FREE SHIPPING 
+        Total Shipping: $0.00 USD ($0.00 CAD)    ---- I will pay the shipping out of pocket too
+- **Canadian HST/GST (13%)**: $39.58 USD ($54.22 CAD)
 
 ### Final Totals
-- **Subtotal**: $193.59 USD / $261.61 CAD  
-- **Taxes (13%)**: $25.17 USD / $34.01 CAD  
-- **Shipping**: $4.56 USD / $6.16 CAD  
-- **🔹 TOTAL**: **$223.32 USD / $301.78 CAD**
+- **Subtotal (without MG90S motors and ESP32-CAM, if my RoboHand projects gets approved)**: $304.46 USD / $417.07 CAD
+- **Shipping Total**: $0.00 USD / $0.00 CAD
+- **Taxes (13%)**: $39.58 USD / $54.22 CAD
+- **🔹 TOTAL**: $344.04 USD / $471.29 CAD

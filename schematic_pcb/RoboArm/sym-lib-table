@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Dynamixel")(type "KiCad")(uri "${KIPRJMOD}/Dynamixel.kicad_sym")(options "")(descr ""))
   (lib (name "MyoWare_EMG_Sensor")(type "KiCad")(uri "${KIPRJMOD}/MyoWare_EMG_Sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "LX-255 Servo")(type "KiCad")(uri "${KIPRJMOD}/LX-255 Servo.kicad_sym")(options "")(descr ""))
 )
