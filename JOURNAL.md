@@ -4,14 +4,14 @@ author: "Akshit Erukulla"
 description: "A robotic arm that has 2–3 hinged segments moved by servos or tendons, controlled by a microcontroller and EMG sensor for mind-control."
 created_at: "2025-07-18"
 ---
-**Total Time spent: 2h**
+**Total Time spent: 51.5h**
 
 # July 18th:
 I worked on my CAD. I had to really think about how to design the arm. I decided to start off with some cylidners and then processeded to hollow them out, cut them, connect them, then added servo motor holders I think thsi is a good general structure, but I'll have to measure the mount position on a servo motor to exactly determine the positiosn I would put it in the real world. I also need to check how much the servo motors would be abe\le to rotate at the crrent positions.
 
 ![CAD Arm](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2e864bb8f16b1cca8659abd531553ba01220fb8a_cad_jy_18.png)
 
-**Time spent: 2h**
+**Time spent: 2.5h**
 
 # July 21st:
 I worked on my CAD. First of all, I copy-pasted the RoboHand I made in a previous project just to see how it would look. Then, I realized the hand was too big, so I measured my own hand's fingers and dimensions in order to apply that to the CAD. I also moved everything closer so it fit together. I realized I had to add covering for every single part, so I did that, and had to adjust the dimensions of the white cylinders of the arm because I realised most of them were too big. It was difficult trying to make space for the servo motors, and probably will be even more difficult, because I realised I need to add more servo motors to the hand itself, since it needs to be able to move all the fingers very freely. 
@@ -19,7 +19,7 @@ I also realzied I need to make the right ends of the cylinders circular and then
 
 ![CAD Arm](https://hc-cdn.hel1.your-objectstorage.com/s/v3/93613baa2f7cda7798a47aaf6605544a49b3bef3_image.png)
 
-**Time spent: 1.5h**
+**Time spent: 2h**
 
 # July 22nd:
 I worked on my CAD. I first made a literal human arm within the CAD which was done through using scanned arm models and then converting them to STL files and then hollowing them out while also removing the extra stuff around them. After that, I decided to work on modeling exactly what the servo motors and inner components of my RoboARM would look like, because my previous version (the arm in the middle) felt too inefficient and also didn't satisfy everything I wanted to. Instead, one of the major improvements I did was build a 3-axis gimbal at the base of the arm which I made following a tutorial. After researching I decided to use Dynamixel motors for the gimbal and the elbow. Then, at the wrist, I had to also change the motor to a standard MG90S. These motor changes required to change the casing that would contain the motors. Anyways, for the wrist, I had to also make a curved cutout the blue wrist/palm part because I accounted for the hand's actual yaw movement.
@@ -27,16 +27,15 @@ Everything in total took so much time because I completed multiple tasks, which 
 
 ![CAD Arm](https://hc-cdn.hel1.your-objectstorage.com/s/v3/97acb80c390be0719a95e994a2181757fff5a221_cad_jy22.png)
 
-**Time spent: 6h** (I'm not kidding, it actually took that long)
+**Time spent: 6h** 
 
 # July 23rd:
 I worked on my CAD again. While the image looks messy, all it really is that I merged the "revised components" version of the arm (at the back) into the actual human arm model. I had a lot of trouble with the gimbal because the little stage in the middle was too small to contain the whole arm. Moreover, the motion of each of the servo motors in the gimbal have their own area/circle of movement so I had to estimate that, then make cylinders of them, to then cut out of the big red base box. I was also in general trying to figure out how the big arm would fit on the stage, and in the end, finalized on a tube + cone that connects the stage to the arm. Then, I moved on to the elbow which also surprisingly took a long time. I had a lot of trouble actually figuring out the proper position and attachment method for my servo motor to act as a hinge. This was because I really wanted the arm to be a fully enclosed and connected thing like how it is in the real world, but when you move the arm around the hinge, it would get "stopped" by the bicep part. I'm still not satisfied with what I decided to do (which was just leave a space at the hinge for the servo motor, so the arm could move a full 120 degrees which is what the orange arm is showing).
 Moreover, if you look at the "component" arm at the back and look at the hand, I changed the hand quite a bit. I had to significantly shorten it and I also was trying to figure out how to give the thumb 3 DOF movement, but I realized that the servo motors wouldn't be able to fit. I'm not done with the hand, but technically, that was for another project, and the 3 DOF isn't completely necessary, so I don't need it right now, but I still spent time on it, because the thumb movement is very important for a proper human hand. Most robotic hands don't have a 3 DOF thumb because of these problems, but I will eventually fix that.
-I was going to work for another hour, but my family forced me to take a break. :(
 
 ![CAD Arm](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2a9f5c28595686b27b55a0872b97e1e1f2864aa3_cad_jy_23.png)
 
-**Time spent: 5h** 
+**Time spent: 6h** 
 
 # July 24th:
 I worked on my CAD again. I think I've finally finished. Basically, I realized that the gimbal was really messed up, and it still is. I tried moving the bicep part around each of the gimbal's servo motors and I realized that the bicep was going to be stopped by the servo motors, especially the bottom (far right) motor because the arm is very big and wide. So I had to extend the connectors of the gimbal for almost each servo. I'm still not sure if it would work, but I do know that even if it doesn't completely fit the whole range of a human arm, it will still be able to complete a majority of it. Anyways, the wrist part was relatively simple, I just had to move the components to the human arm's wrist, then adjust the servo motor so it wouldn't waste too much space.
@@ -45,7 +44,7 @@ I think tomorrow, I'll work on separating the parts and fixing anything else I n
 
 ![CAD Arm](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0667d4082a4b8ca22801f61ec70032863b29ee40_cad_jy24.png)
 
-**Time spent: 4h** 
+**Time spent: 5h** 
 
 # July 25th:
 I worked on my circuit schematic. It was extremely confusing because some of the parts I neededcl ike the Dynamixel servo motors and the MyoWare sensors didnt have any footprints of symbols, so I had to make them myself. Moreover, I had trouble getting the correct BNO055 and some of the symbosl like the ESP32-CAM had errors for their pins. They had Bidirectional as the electircal type for all of their pins, which is completely wrong because power pins like the 5V and the GND pins should be power input. Also, as I moved the components over everywhere, some of the wires got into unwanted junctions and stuff which was very very annoying to fix. There were also a lot of errors on the ERC so I had to track everything and fix it. There were so many components that I had to research how to connect and then manually connect everything as well. Since I'm a beginner at KiCAD, it took so much time to fix all of this.
@@ -55,7 +54,7 @@ I think the schematic is mostly done because I made sure all of the connections 
 
 ![Circuit Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/09242684435c8adfca3481af5a91649d5c3d4354_schematic_jy25.png)
 
-**Time spent: 4h** 
+**Time spent: 4.5h** 
 
 # July 26th:
 First, I worked on my schematic, because there were still some library issues related to the downloaded parts like the PCA8095, the BNO055, and the ESP32-DEVKIT-V1. For some reason, the ESP32-CAM was working fine, so I was trying to figure out why that was workign and not these ones. After checking online for others who had the same problem, I finally realized that it was somme very tricky pathing error that I had to scour to determine how to change it (TLDR, it wasn't as easy as just updating the symbol and footprint library paths). Anyways, this part took way too long. Nothing in the circuit itself was changed, except for replacing these three components after a bunch of trial and error stuff, but the component is still the same, just the path is different.
@@ -78,7 +77,7 @@ I'll upload all of the CAD files tomorrow after I'm done updating.
 
 ![Separated Human Arm Base. There're more images, but just this one for now I'll show](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e1a96042fae8d9c8134b4bd1a5ce0a0e1372ae05_human_arm_base_cad.png)
 
-**Time spent: 5.5h** 
+**Time spent: 6h** 
 
 # July 28th:
 Like I said yesterday, I just focused on finding the correct and best replacements for the Dynamixel servo motor and the MyoWare EMG sensors. I first made up a list of a few different decent replacements for each one by checking reviews/posts. Then, I searched each one and filtered out the ones that were too weak or too expensive. I finally was able to find two possible replacements for each of the Dynamixel and the MyoWare. I found an LX-224 and an LX-225 for the servo, and I found a potentially cheap MyoWare 1.0 and a cheap ECG (not EMG unfortunately) sensor that's often used with Arduino. After messaging the customer service people for each component and also deciding between my choices, I've locked in the LX-225 and the MyoWare 1.0, because the LX-225 offered more torque for about the same price and size as the LX-224, and torque is especially important because the Dynamixel has 40 kg*cm, so I need any torque I can get. For the MyoWare, it was mainly decided due to the fact that it wouldn't change any of my schematics and moreover, the MyoWare is genuinely good quality, has a lot of good documentation, and doesn't need any extra parts like a shield for example.
@@ -95,16 +94,31 @@ I finished updating the circuit schematic and the CAD. It took some time picking
 
 ![Updated Scehmatic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/de92ead07e0b2a18475181f37048c697b2ef9f44_schematic_jy29.png)
 
-**Time spent: 1h** 
+**Time spent: 1.5h** 
 
 # July 30th:
 I received updates from the people from Aliexpress and unfortunately the MyoWare sensors that were priced at $10 are not in stock, which means I need to look for other options. So, I first searched up again on other sites like Alibaba and robotnot but most of them had terrible prices. I found one potential MyoWare 1.0 sensor priced at $30, which is still expensive, but it is definitely the cheapest one considering shipping as well. However, since they are at $30, I will barely be able to get 5 or 6 sensors. After researching, I found that I do not NEED 10 sensors, however, for fluid human-like motion, it is definitely extremely useful. I'm thinking of replacing some of the lack of data using datasets online too if possible or ask universities in my area to borrow their cheap sensors for testing. It's desperate, but I need at least these 5 or 6 sensors. For 6 sensors, I need to probably take out the MG90S motors, the ESP32-CAM, the capacitors, the pull-up resistors, and the shipping out of my BOM, because if my RoboHand project gets approved, then I should be able to acquire those items. This means that I will need to also delete 4 sensors out of my schematic.
 I just chose not to reduce the EMG sensors in my schematic from 10 to 6 because in the future, when I do buy the other 4 sensors out of pocket, I want to be able to use the 10 EMG sensor schematic easily, which is why I have not changed it to have 6 EMG sensors. Additionally, to fix the error that I had with the DC Buck Converter, I simply added a +5V power symbol and deleted the wire connection from the OUT pin, because the OUT pin will produce 5V anyways, so it’s fine if I replace it like this. There’s also no error if I do this.
 I also edited the CAD servo holders as needed. It took some time because I had to also edit the servo mounts/attachments since all of the Dynamixel's attachments need to be converted into the LX-225 version.
-Next, I need to work on the firmware. To do that, I need to look at some tutorials and research papers and GitHubs properly to understand how to build a good EMG and other modalities dataset. I can also prepare a basic model template for the ROS, but it'll be difficult.
+Next, I need to work on the firmware. To do that, I need to look at some tutorials and research papers and GitHubs properly to understand how to build a good EMG and other modalities dataset. I can also prepare a basic model template for the ROS, but it'll be difficult. I took down some notes as well, and a basic plan structure.
 
 ![Updated Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0d52475c7330d083d6516c378238f20f8c8fdde7_schematic_jy30.png)
 
 ![CAD Updated Servo Holders](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6e9a5dc8b87d677ede1fb0148001c4edf4cc3900_cad_jy30.png)
 
-**Time spent: 2h** 
+**Time spent: 3.5h** 
+
+# July 31st:
+I read more research papers on my robotic arm, how to make it have human-like fluid motion, how EMG sensors work, previous projects and tutorials about EMG sensors, alignment with other modality inputs, processing EMG data, and making a model using it. Since I don't have my parts yet, I can't test anything, but I just wrote up some basic scripts of how the general pipeline should look like. I based off the real_time_data.py code off of what other research papers and GitHubs did to custom align the modalities, which was actually much simpler than I imagined. Basically, all you need is to make the microcontroller send a signal to all of the modalities at the same time to start recording, and then also have proper timestamps. I was also able to make a fake dataset for the models.py code and then test the functionality using that. It basically produced some garbage correlations and understanding since it was fake data, but at least it worked after a few hours of work. I chose to perform data processing, then use LSTM and RL models to actually learn from each of the modalities, make a model for each, then make combination models, and then test accuracy and stuff for each one.
+I also looked into what other previous papers did for the camera/visual-based hand motion, and even worked on constructing a dataset for that today. I used MuJoCo simulation to write up a code that can actually construct a dataset from various viewpoints, and used a Kinova Gen 3 arm (which is good for beginners to work with) to simulate different object placements and arm positions/configurations. I initially tried to use random arm configs to get different arm positions, but it didn’t work, so I decided to use some simple Inverse Kinematics (IK) to move to different points in the space around the arm. That worked out better, but then I had to work out the camera alignment which took a lot of time to fix. I first tried out just doing trial and error for each camera alignment shift and seeing its trajectory to the target objects on the table. Speaking of objects, I downloaded a few free STL objects from online and then used that in my simulation to generate my image dataset.
+I also realized that I forgot to add my DC Buck Converter onto the BOM, so I added that, by searching up stuff online. Then, I realized that ideally all my products should be from Aliexpress because it often has the cheapest deals... So, I had to spend another few hours scouring Aliexpress, Alibaba, and Amazon (just to make sure) so that my products were truly the best and cheapest deals, even if they came late. Atleast, I learned something through this, that I should be careful and always try to save money. After doing all of that, I converted my BOM also into a .csv file, and then rechecked everything just to be sure, before I submitted.
+
+![Scene 0 in Image Dataset](https://hc-cdn.hel1.your-objectstorage.com/s/v3/aa28b4ffe4847cc6dde3fffceca2d866c1e15a62_scene_0000_center.png)
+
+![Scene 1 in Image Dataset](https://hc-cdn.hel1.your-objectstorage.com/s/v3/64b79e58480662895451bf9c59326c34985e8c6b_scene_0001_center.png)
+
+![Scene 2 in Image Dataset](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ca07a6d5c91f754adc8886db1bd9013df21d6f7c_scene_0002_center.png)
+
+![DC buck Converter](https://hc-cdn.hel1.your-objectstorage.com/s/v3/fb22471fc35030875cc128c44d4c5ef0dad71418_lm2596s-adj.png)
+
+**Time spent: 6.5h** 

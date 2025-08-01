@@ -1,0 +1,18 @@
+Component,Model/Part Number,Qty,Price (CAD),Price (USD),Link,Notes
+ESP32 DevKit V1,ESP32-WROOM-32,1,$7.11,$5.22,https://www.aliexpress.com/item/1005008503831020.html,Main controller
+ESP32-CAM,ESP32-CAM,1,$12.33,$9.05,https://www.aliexpress.com/item/1005006341099716.html,Computer vision
+MG90S Micro Servos,TowerPro MG90S,2,$5.70,$4.18,https://www.aliexpress.com/item/1005008626768357.html,"Pack of 5, need only 2, but it was the cheapest price. Also, I can use the other extra ones if some of them fail/break"
+LX-225 Servo Motors,LX-225,4,$94.82,$69.60,https://www.alibaba.com/product-detail/Double-Shaft-LX-225-High-Speed_1600996726890.html,"25 kg.cm torque servos. Originally wanted Dynamixel XM430 servos, but they were too expensive, so this is the best servo motor that has a decent price and good quality and usability for my application. Unit price is $17.41 USD"
+PWM Driver,Adafruit PCA9685,1,$4.43,$3.25,https://www.aliexpress.com/item/1005006298833960.html,16-channel PWM
+Level Shifter,TXS0108E,1,$1.54,$1.13,https://www.aliexpress.com/item/1005006825517960.html,3.3V to 5V converter. This is the best deal.
+EMG Sensors,SEN-13723 RoHS MyoWare,6,$245.23,$180.00,https://www.alibaba.com/product-detail/SpotMyoWare-Muscle-Sensor-SEN-13723-Muscles_1601406726720.html,"Muscle activity sensors. These are one of the best quality sensors suitable for research projects such as this and are also the cheapest deal I found everywhere! I need 6 because I'm doing a full hand-arm, meaning there are multiple muscles to look at and analyze and align and everything. Its essentially one for each DOF of the arm, however it should be ideally 1 or 2 more than this for proper accurate research and to account for the hands' muscles. However, that is outside of our budget which is why I'm only buying 6."
+ADC Modules,ADS1115,3,$5.54,$4.07,https://www.aliexpress.com/item/1005007628692389.html,16-bit ADC
+IMU Sensor,BNO055,1,$11.43,$8.39,https://www.aliexpress.com/item/1005005506735089.html,9-DOF orientation
+Power Supply,7.4V 20A SMPS,1,$19.99,$14.67,https://www.amazon.ca/AMZZN-2000mAh-Battery-Charging-Engineering/dp/B0D1G8L8Y4,"High current supply, and is best & cheapest deal. This Amazon deal was even better than the ones on Ali-express surprisingly, because the Aliexpress ones had really high shipping fees or really high prices compared to the Amazon one."
+DC Buck Converter,LM2596S-ADJ,1,$1.25,$0.92,https://www.alibaba.com/product-detail/Dc-Dc-Converter-Lm2596s-Lm-2596_1600103532696.html,"Adjustable. Handles high voltages and can convert to the 5V that I need it to be able to. Free shipping too. Best & cheapest deal. The link said 2pcs minimum though, which is why its $0.92"
+Pull-up Resistors,4.7kΩ 1/4W,2,$2.41,$1.77,https://www.aliexpress.com/item/32317131954.html,"I²C pull-ups. Cheapest deal. The link has 10 pieces, but there was no product that sold them individually"
+Capacitor 1000µF,Electrolytic 25V,1,$4.37,$3.21,https://www.aliexpress.com/item/33010665515.html,"Power filtering. The link has 10 pcs but there was no other product that only sold 1 piece and this was the cheapest"
+Capacitor 470µF,Electrolytic 25V,1,$3.54,$2.60,https://www.aliexpress.com/item/1005009356203410.html,"Power filtering. Also, the link has 10 pieces, but there were no others that sold less than that and for this cheap price"
+Capacitor 220µF,Electrolytic 25V,1,$2.89,$2.12,https://www.aliexpress.com/item/1005006873397126.html,"Power filtering. Also, the link has 10 pieces, but there were no others that sold less than that and for this cheap price"
+Jumper Wires,Dupont Wires,A lot,N/A,N/A,N/A,I already have a lot of these
+Breadboard,Half-size,1,N/A,N/A,N/A,I already have 2 empty ones to use

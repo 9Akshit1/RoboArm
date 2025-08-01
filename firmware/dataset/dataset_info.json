@@ -1,0 +1,41 @@
+{
+  "creation_time": "2025-07-31T14:31:08.030349",
+  "num_scenes": 3,
+  "assets_directory": "firmware/dataset/scenes/assets",
+  "available_objects": [
+    "apple.stl",
+    "banana.stl",
+    "bottle.stl",
+    "bowl.stl",
+    "computer_mouse.stl",
+    "cup.stl",
+    "minion.stl",
+    "robot.stl",
+    "teddy_bear.stl",
+    "sphere.stl",
+    "cylinder.stl",
+    "cube.stl"
+  ],
+  "total_object_types": 12,
+  "target_positioning": "dynamic_workspace_based",
+  "workspace_limits": {
+    "min_radius": 0.5,
+    "max_radius": 0.85,
+    "min_height": 0.9,
+    "max_height": 1.6,
+    "min_angle": -60,
+    "max_angle": 120,
+    "preferred_height_range": [
+      1.0,
+      1.4
+    ]
+  },
+  "arm_reach": 0.9,
+  "dynamic_target_generation": true,
+  "lighting_configs_count": 5,
+  "validation_enabled": false,
+  "ik_method": "GaussNewtonIK (FIXED from )",
+  "successful_scenes": 3,
+  "failed_scenes": 0,
+  "skipped_scenes": 0
+}
