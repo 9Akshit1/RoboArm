@@ -103,13 +103,13 @@ Generated Simulated Dataset:
 
 ### Shipping & Taxes Calculation
 - **Shipping cost**: 
-        - From Amazon: $0.00 USD ($0.00 CAD) --- Only product was the Battery and it has FREE SHIPPING
-        - From Alibaba/AliExpress: $0.00 USD ($0.00 CAD)  --- Every product is FREE SHIPPING because this is my first ever order on Alibaba/Aliexpress
-        Total Shipping: $0.00 USD ($0.00 CAD)   
-- **Canadian HST/GST (13%)**: $40.33 USD ($54.94 CAD)
+        - From Amazon: $0.00 USD / $0.00 CAD --- Only product was the Battery and it has FREE SHIPPING
+        - From Alibaba/AliExpress: $0.00 USD / $0.00 CAD  --- Every product is FREE SHIPPING because this is my first ever order on Alibaba/Aliexpress
+        Total Shipping: $0.00 USD / $0.00 CAD
+- **Canadian HST/GST (13%)**: $40.25 USD / $54.88 CAD
 
 ### Final Totals
-- **Subtotal (without MG90S motors and ESP32-CAM, if my RoboHand projects gets approved)**: $309.59 USD / $422.17 CAD
+- **Subtotal**: $309.59 USD / $422.17 CAD
 - **Shipping Total**: $0.00 USD / $0.00 CAD
 - **Taxes (13%)**: $40.25 USD / $54.88 CAD
 - **🔹 TOTAL**: $349.84 USD / $477.05  CAD
