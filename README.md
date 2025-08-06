@@ -1,5 +1,5 @@
 # RoboArm
-DESCRIPTION: RoboArm is just like how it sounds. It is a robotic arm with 3 joints that can mimic real arm movements. It uses servo motors controlled by an EMG sensor to move based on brain signals. The hand can also be controlled manually via a computer or preset motions for easy testing and flexibility.
+DESCRIPTION: RoboArm is just like how it sounds. It is a robotic arm with 3 joints that can mimic real arm movements. It uses servo motors controlled by an EMG sensor to move based on brain signals. The arm can also be controlled manually via a computer or preset motions for easy testing and flexibility.
 
 INSPIRATION: I've always been inspired by how human arms move and wanted to recreate that motion using motors and tendons. Additionally, I previosuly built a RoboHand so to add on to that project, I wanted to add a RoboArm to extend it. I also wanted to get into the neuroscience field, so this is my first step into it!
 
