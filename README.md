@@ -83,7 +83,7 @@ Generated Simulated Dataset:
 | LX-225 Servo Motors | LX-225 | 4 | $94.82 | $69.60 | [Link](https://www.alibaba.com/product-detail/Double-Shaft-LX-225-High-Speed_1600996726890.html?spm=a2700.galleryofferlist.normal_offer.d_title.318813a0PIdYL7&selectedCarrierCode=SEMI_MANAGED_STANDARD@@STANDARD) | 25 kg.cm torque servos. Originally wanted Dynamixel XM430 servos, but they were too expensive, so this is the best servo motor that has a decent price and good quality and usability for my application. Unit price is $17.41 USD |
 | PWM Driver | Adafruit PCA9685 | 1 | $4.43 | $3.25 | [Link](https://www.aliexpress.com/item/1005006298833960.html?spm=a2g0o.productlist.main.2.787a5d9datmysx&aem_p4p_detail=202507311606341701772608146720003198777&algo_pvid=15c1d215-a59f-48b5-8adb-4727f7aa4df9&algo_exp_id=15c1d215-a59f-48b5-8adb-4727f7aa4df9-1&pdp_ext_f=%7B%22order%22%3A%22186%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%214.43%211.63%21%21%2122.51%218.27%21%402103247917540031941675191ebb89%2112000037529842018%21sea%21CA%216438900822%21ABX&curPageLogUid=XfzBycOLYrkp&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507311606341701772608146720003198777_1) | 16-channel PWM |
 | Level Shifter | TXS0108E | 1 | $1.54 | $1.13 | [Link](https://www.aliexpress.com/item/1005006825517960.html?spm=a2g0o.productlist.main.6.6bb7552bbSnz1J&aem_p4p_detail=202507311733325343759419334840003304366&algo_pvid=597128eb-8e28-40bf-b7db-30e1878039f4&algo_exp_id=597128eb-8e28-40bf-b7db-30e1878039f4-5&pdp_ext_f=%7B%22order%22%3A%22113%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%216.55%211.63%21%21%2133.32%218.30%21%402103244817540084122198878e2fa5%2112000046140260695%21sea%21CA%216438900822%21ABX&curPageLogUid=MUMJA940BGSI&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507311733325343759419334840003304366_2) | 3.3V to 5V converter. This is the best deal. |
-| EMG Sensors | SEN-13723 RoHS MyoWare | 6 | $245.23 | $180.00 | [Link](https://www.alibaba.com/product-detail/SpotMyoWare-Muscle-Sensor-SEN-13723-Muscles_1601406726720.html?spm=a2700.galleryofferlist.normal_offer.d_title.52e313a0BHVrsO) | Muscle activity sensors. These are one of the best quality sensors suitable for research projects such as this and are also the cheapest deal I found everywhere! I need 6 because I'm doing a full hand-arm, meaning there are multiple muscles to look at and analyze and align and eveyrthing. Its essentially one for each DOF of the arm, however it should be ideally 1 or 2 more than this for proper accurate research and to account for the hands' muscles. However, that is outside of our budget which is why I'm only buying 6. |
+| EMG Sensors | Muscle BioAmp Candy | 8 | $108.88 | $79.92 | [Link]([https://www.alibaba.com/product-detail/SpotMyoWare-Muscle-Sensor-SEN-13723-Muscles_1601406726720.html?spm=a2700.galleryofferlist.normal_offer.d_title.52e313a0BHVrsO](https://www.tindie.com/products/upsidedownlabs/muscle-bioamp-candy-emg-sensor/)) | Muscle activity sensors. I need 8 because I'm trying to achieve extremely fluid motion for a full hand-arm, meaning there are multiple muscles (its essentially 1 EMG sensor per DOF, but there are a few exceptions since some muscles are highly connected with others) to look at and analyze and align and everything. |
 | ADC Modules | ADS1115 | 3 | $5.54 | $4.07 | [Link](https://www.aliexpress.com/item/1005007628692389.html?spm=a2g0o.productlist.main.2.6c913e84NYJmIs&aem_p4p_detail=202507311619095829272559576480003213401&algo_pvid=1275a360-73ba-4ddf-a858-0478d2ddf380&algo_exp_id=1275a360-73ba-4ddf-a858-0478d2ddf380-1&pdp_ext_f=%7B%22order%22%3A%22612%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%2111.18%216.23%21%21%2156.85%2131.67%21%40210313e917540039492598181eaff1%2112000041563143884%21sea%21CA%216438900822%21ABX&curPageLogUid=H8gnUD0dSVdM&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507311619095829272559576480003213401_1) | 16-bit ADC |
 | IMU Sensor | BNO055 | 1 | $11.43 | $8.39 | [Link](https://www.aliexpress.com/item/1005005506735089.html?spm=a2g0o.productlist.main.1.52fe741baPvnr7&algo_pvid=729d77a6-79cf-4867-bc7c-fe69d8e9dd75&algo_exp_id=729d77a6-79cf-4867-bc7c-fe69d8e9dd75-0&pdp_ext_f=%7B%22order%22%3A%22398%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%2111.43%215.77%21%21%218.08%214.08%21%402101ef5e17540042270443170e80cc%2112000033345589764%21sea%21CA%216438900822%21ABX&curPageLogUid=OxnT7GIlahPs&utparam-url=scene%3Asearch%7Cquery_from%3A) | 9-DOF orientation |
 | Power Supply | 7.4V 20A SMPS | 1 | $19.99 | $14.67 | [Link](https://www.amazon.ca/AMZZN-2000mAh-Battery-Charging-Engineering/dp/B0D1G8L8Y4/ref=sr_1_3?crid=2KCC7GMAS4ZGX&dib=eyJ2IjoiMSJ9.164idcALTh0_bZAf5Vi-Q6R-2Q0STTdt4w2c81RtTbtaUKnLO4Ucd45u6AvaqkE0OeTMT9IspAq8Ri0kZ8s2mcJOSywLseU-L-a-Z7pWwmSMrADnVMfCIFGfrfOMK2zntBF9364_MNciDtu7PFy6ZrQAMe9qxGQYBjBZ5hpoOs65n0niSHpINcpWLVqBpRno.LJwbNIHeS8PQbgy97yjwZOc-AsPsnFNpiDhrpLOiaY4&dib_tag=se&keywords=7.4V%2B5A%2B2000mAh%2BSMPS%2Bbattery%2Bsupply&qid=1753988267&sprefix=7%2B4v%2B5a%2B2000mah%2Bsmps%2Bbattery%2Bsupply%2Caps%2C86&sr=8-3&th=1) | High current supply, and is best & cheapest deal. This Amazon deal was even better than the ones on Ali-express surprisingly, because the Aliexpress ones had really high shipping fees or really high prices compared to the Amazon one. |
@@ -99,19 +99,20 @@ Generated Simulated Dataset:
 
 ## Cost Summary
 ### Component Totals
-- **Subtotal**: $309.59 USD / $422.17 CAD
+- **Subtotal**: $209.51 USD / $285.44 CAD
 
 ### Shipping & Taxes Calculation
 - **Shipping cost**: 
         - From Amazon: $0.00 USD / $0.00 CAD --- Only product was the Battery and it has FREE SHIPPING
         - From Alibaba/AliExpress: $0.00 USD / $0.00 CAD  --- Every product is FREE SHIPPING because this is my first ever order on Alibaba/Aliexpress
-        Total Shipping: $0.00 USD / $0.00 CAD
-- **Canadian HST/GST (13%)**: $40.25 USD / $54.88 CAD
+        - From Tindie: $13.92 USD / $18.96 CAD      --- The EMG sensors are shipped from India
+        Total Shipping: $13.92 USD / $18.96 CAD
+- **Canadian HST/GST (13%)**: $29.05 USD / $39.57 CAD
 
 ### Final Totals
-- **Subtotal**: $309.59 USD / $422.17 CAD
-- **Shipping Total**: $0.00 USD / $0.00 CAD
-- **Taxes (13%)**: $40.25 USD / $54.88 CAD
-- **🔹 TOTAL**: $349.84 USD / $477.05  CAD
+- **Subtotal**: $209.51 USD / $285.44 CAD
+- **Shipping Total**: $13.92 USD / $18.96 CAD
+- **Taxes (13%)**: $29.05 USD / $39.57 CAD
+- **🔹 TOTAL**: $252.48 USD / $343.98  CAD
 
 Since the BOM is slightly below $350 USD, then in the case that, when I buy my parts, that the total price is slightly above $350, I will pay that extra bit.
